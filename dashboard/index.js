@@ -1,5 +1,5 @@
 const { useQuasar } = Quasar;
-const baseURL = "http://localhost/";
+const baseURL = "http://localhost";
 const CG_MAX_SIZE = 1000000000;
 const cgAllowedTypes = ["image/jpeg", "image/png", "video/mp4", "video/webm"];
 
