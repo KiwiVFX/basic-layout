@@ -1,0 +1,48 @@
+{
+  "name": "basic-layout",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "KiwiVFX",
+    "email": "info@kiwivfx.com",
+    "url": "www.kiwivfx.com"
+  },
+  "files": [
+    "dashboard/src",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "basic",
+        "title": "Basic",
+        "file": "index.html",
+        "fullbleed": true,
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.7.1",
+    "short-unique-id": "^4.3.4",
+    "sortablejs": "^1.14.0",
+    "vuedraggable": "^2.24.3"
+  }
+}
