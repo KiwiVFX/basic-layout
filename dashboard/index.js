@@ -1,5 +1,5 @@
 const { useQuasar } = Quasar;
-const baseURL = "https://renderbox.io:9090";
+const baseURL = "https://nodecg-test-1.herokuapp.com:9090";
 const CG_MAX_SIZE = 1000000000;
 const cgAllowedTypes = ["image/jpeg", "image/png", "video/mp4", "video/webm"];
 
